@@ -1,0 +1,15 @@
+# awgl
+#### Azaika Windows Graphics Library written in C++
+DirectXなどのWindowsの描画関連APIをC++でラップしたライブラリです。  
+ヘッダーオンリーですので適当に使ってください。  
+VS2015で動作確認済みです。
+
+DirectX and other windows graphis API's wrapper library written in C++  
+This is header only library.  
+Use it free (of because, please according to license)  
+It is tested in VS2015.
+
+####LICENSE
+MIT license
+
+twitter: [@azaika_](http://www.twitter.com/azaika_)
