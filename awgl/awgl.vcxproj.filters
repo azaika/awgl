@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="ヘッダー ファイル\wawl">
+      <UniqueIdentifier>{66d6afcf-7c3f-4dd8-bea8-b44c51012145}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README">
@@ -21,5 +24,102 @@
     <None Include="..\LICENSE">
       <Filter>リソース ファイル</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="wawl\BaseType.hpp">
+      <Filter>ヘッダー ファイル\wawl</Filter>
+    </ClInclude>
+    <ClInclude Include="wawl\BaseUtility.hpp">
+      <Filter>ヘッダー ファイル\wawl</Filter>
+    </ClInclude>
+    <ClInclude Include="wawl\Bitmap.hpp">
+      <Filter>ヘッダー ファイル\wawl</Filter>
+    </ClInclude>
+    <ClInclude Include="wawl\BitmapBaseType.hpp">
+      <Filter>ヘッダー ファイル\wawl</Filter>
+    </ClInclude>
+    <ClInclude Include="wawl\Console.hpp">
+      <Filter>ヘッダー ファイル\wawl</Filter>
+    </ClInclude>
+    <ClInclude Include="wawl\ConsoleBaseType.hpp">
+      <Filter>ヘッダー ファイル\wawl</Filter>
+    </ClInclude>
+    <ClInclude Include="wawl\Cursor.hpp">
+      <Filter>ヘッダー ファイル\wawl</Filter>
+    </ClInclude>
+    <ClInclude Include="wawl\CursorBaseType.hpp">
+      <Filter>ヘッダー ファイル\wawl</Filter>
+    </ClInclude>
+    <ClInclude Include="wawl\Debug.hpp">
+      <Filter>ヘッダー ファイル\wawl</Filter>
+    </ClInclude>
+    <ClInclude Include="wawl\Error.hpp">
+      <Filter>ヘッダー ファイル\wawl</Filter>
+    </ClInclude>
+    <ClInclude Include="wawl\File.hpp">
+      <Filter>ヘッダー ファイル\wawl</Filter>
+    </ClInclude>
+    <ClInclude Include="wawl\FileBaseType.hpp">
+      <Filter>ヘッダー ファイル\wawl</Filter>
+    </ClInclude>
+    <ClInclude Include="wawl\FileSystem.hpp">
+      <Filter>ヘッダー ファイル\wawl</Filter>
+    </ClInclude>
+    <ClInclude Include="wawl\Icon.hpp">
+      <Filter>ヘッダー ファイル\wawl</Filter>
+    </ClInclude>
+    <ClInclude Include="wawl\IconBaseType.hpp">
+      <Filter>ヘッダー ファイル\wawl</Filter>
+    </ClInclude>
+    <ClInclude Include="wawl\Input.hpp">
+      <Filter>ヘッダー ファイル\wawl</Filter>
+    </ClInclude>
+    <ClInclude Include="wawl\Menu.hpp">
+      <Filter>ヘッダー ファイル\wawl</Filter>
+    </ClInclude>
+    <ClInclude Include="wawl\MenuBaseType.hpp">
+      <Filter>ヘッダー ファイル\wawl</Filter>
+    </ClInclude>
+    <ClInclude Include="wawl\MessageBox.hpp">
+      <Filter>ヘッダー ファイル\wawl</Filter>
+    </ClInclude>
+    <ClInclude Include="wawl\Pipe.hpp">
+      <Filter>ヘッダー ファイル\wawl</Filter>
+    </ClInclude>
+    <ClInclude Include="wawl\Process.hpp">
+      <Filter>ヘッダー ファイル\wawl</Filter>
+    </ClInclude>
+    <ClInclude Include="wawl\ProcessBaseType.hpp">
+      <Filter>ヘッダー ファイル\wawl</Filter>
+    </ClInclude>
+    <ClInclude Include="wawl\Region.hpp">
+      <Filter>ヘッダー ファイル\wawl</Filter>
+    </ClInclude>
+    <ClInclude Include="wawl\RegionBaseType.hpp">
+      <Filter>ヘッダー ファイル\wawl</Filter>
+    </ClInclude>
+    <ClInclude Include="wawl\SecurityObjects.hpp">
+      <Filter>ヘッダー ファイル\wawl</Filter>
+    </ClInclude>
+    <ClInclude Include="wawl\System.hpp">
+      <Filter>ヘッダー ファイル\wawl</Filter>
+    </ClInclude>
+    <ClInclude Include="wawl\Wawl.hpp">
+      <Filter>ヘッダー ファイル\wawl</Filter>
+    </ClInclude>
+    <ClInclude Include="wawl\WawlBase.hpp">
+      <Filter>ヘッダー ファイル\wawl</Filter>
+    </ClInclude>
+    <ClInclude Include="wawl\Window.hpp">
+      <Filter>ヘッダー ファイル\wawl</Filter>
+    </ClInclude>
+    <ClInclude Include="wawl\WindowBaseType.hpp">
+      <Filter>ヘッダー ファイル\wawl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

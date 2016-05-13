@@ -145,6 +145,41 @@
     <None Include="..\LICENSE" />
     <None Include="..\README" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="wawl\BaseType.hpp" />
+    <ClInclude Include="wawl\BaseUtility.hpp" />
+    <ClInclude Include="wawl\Bitmap.hpp" />
+    <ClInclude Include="wawl\BitmapBaseType.hpp" />
+    <ClInclude Include="wawl\Console.hpp" />
+    <ClInclude Include="wawl\ConsoleBaseType.hpp" />
+    <ClInclude Include="wawl\Cursor.hpp" />
+    <ClInclude Include="wawl\CursorBaseType.hpp" />
+    <ClInclude Include="wawl\Debug.hpp" />
+    <ClInclude Include="wawl\Error.hpp" />
+    <ClInclude Include="wawl\File.hpp" />
+    <ClInclude Include="wawl\FileBaseType.hpp" />
+    <ClInclude Include="wawl\FileSystem.hpp" />
+    <ClInclude Include="wawl\Icon.hpp" />
+    <ClInclude Include="wawl\IconBaseType.hpp" />
+    <ClInclude Include="wawl\Input.hpp" />
+    <ClInclude Include="wawl\Menu.hpp" />
+    <ClInclude Include="wawl\MenuBaseType.hpp" />
+    <ClInclude Include="wawl\MessageBox.hpp" />
+    <ClInclude Include="wawl\Pipe.hpp" />
+    <ClInclude Include="wawl\Process.hpp" />
+    <ClInclude Include="wawl\ProcessBaseType.hpp" />
+    <ClInclude Include="wawl\Region.hpp" />
+    <ClInclude Include="wawl\RegionBaseType.hpp" />
+    <ClInclude Include="wawl\SecurityObjects.hpp" />
+    <ClInclude Include="wawl\System.hpp" />
+    <ClInclude Include="wawl\Wawl.hpp" />
+    <ClInclude Include="wawl\WawlBase.hpp" />
+    <ClInclude Include="wawl\Window.hpp" />
+    <ClInclude Include="wawl\WindowBaseType.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
