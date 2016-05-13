@@ -4,7 +4,7 @@ DirectXなどのWindowsの描画関連APIをC++でラップしたライブラリ
 ヘッダーオンリーですので適当に使ってください。  
 VS2015で動作確認済みです。
 
-DirectX and other windows graphis API's wrapper library written in C++  
+DirectX and others windows graphis API's wrapper library written in C++  
 This is header only library.  
 Use it free (of because, please according to license)  
 It is tested in VS2015.
