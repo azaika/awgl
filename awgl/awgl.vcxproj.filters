@@ -18,10 +18,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\README">
+    <None Include="..\LICENSE">
       <Filter>リソース ファイル</Filter>
     </None>
-    <None Include="..\LICENSE">
+    <None Include="..\README.md">
       <Filter>リソース ファイル</Filter>
     </None>
   </ItemGroup>
