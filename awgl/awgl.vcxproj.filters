@@ -116,6 +116,15 @@
     <ClInclude Include="wawl\WindowBaseType.hpp">
       <Filter>ヘッダー ファイル\wawl</Filter>
     </ClInclude>
+    <ClInclude Include="Awgl.hpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Awgl2D.hpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseType.hpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">

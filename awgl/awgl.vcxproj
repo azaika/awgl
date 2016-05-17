@@ -146,6 +146,9 @@
     <None Include="..\README.md" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Awgl.hpp" />
+    <ClInclude Include="Awgl2D.hpp" />
+    <ClInclude Include="BaseType.hpp" />
     <ClInclude Include="wawl\BaseType.hpp" />
     <ClInclude Include="wawl\BaseUtility.hpp" />
     <ClInclude Include="wawl\Bitmap.hpp" />
