@@ -1,4 +1,5 @@
-#include "wawl\Wawl.hpp"
+#include <wawl/Wawl.hpp>
+#include "Awgl.hpp"
 
 int WawlMain(
 	wawl::AppHandle,
